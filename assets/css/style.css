@@ -1,0 +1,289 @@
+i {
+    font-size: 50px;
+}
+
+li {
+    display: inline-block
+}
+
+.pushdown {
+    padding-top: 96px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: darkslategray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #1c2f2f;
+}
+
+.nav-elements {
+    padding-top: 20px;
+}
+
+.nav-elements a {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.hero-image {
+    height: 750px;
+    background-image: url("/assets/images/Lmbo-Hero-Image\ .jpg");
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #1c2f2f;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px solid #1c2f2f;
+    padding: 10px;
+}
+
+#jumbotron {
+    width: 700px;
+    height: 400px;
+    background-color: rgba(47, 79, 79, 0.4);
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+#brand-name {
+    color: #f2f2f2;
+    font-size: 56px;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+#slogan {
+    color: #f2f2f2;
+    font-size: 28px;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#form-button {
+    font-size: 30px;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    margin: 50px 0 0 175px;
+    padding: 10px 0 10px 0;
+
+}
+
+.shop-section {
+    height: 820px;
+    background-color: #2d2d2d;
+    border-top: 5px solid #1c2f2f;
+    border-bottom: 5px solid #1c2f2f;
+}
+
+.shop {
+    color: #f2f2f2;
+    font-size: 40px;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.car-shop {
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: rgba(47, 79, 79, 0.4);
+    border: 5px solid #1c2f2f;
+    margin-top: 40px;
+    float: center;
+}
+
+.porche {
+    float: right;
+}
+
+.car-name {
+    color: #f2f2f2;
+    font-size: 28px;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* #porche-image {
+    border-top: 5px solid #1c2f2f;
+    border-bottom: 5px solid #1c2f2f;
+} */
+
+.specs-title {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+.specs {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 16px;
+    margin: 20px 0 0 25px;
+}
+
+.buy-now {
+    margin: 40px 0 0 100px;
+}
+
+.car {
+    font-size: 16px;
+}
+
+.specs-title-lambo {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.specs-title-ferrari {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.meetup-section {
+    height: 830px;
+    background-image: url("/assets/images/meetup-background.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 5px solid #1c2f2f;
+    border-bottom: 5px solid #1c2f2f;
+}
+
+.google-location {
+    border: 5px solid #1c2f2f;
+    border-radius: 20px;
+}
+
+.locations {
+    width: 700px;
+    height: 300px;
+    background-color: rgba(47, 79, 79, 0.4);
+    margin-top: 30px;
+    border: 5px solid #1c2f2f;
+    border-radius: 20px;
+}
+
+.location-1 {
+    margin-left: 200px;
+}
+
+.location-2 {
+    margin-right: 200px;
+}
+
+.meetup-location {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    margin: 10px 0 0 20px;
+    text-decoration: underline;
+}
+
+.meetup-description {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 22px;
+    margin: 30px 0 0 20px;
+
+}
+
+.special {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 22px;
+    margin-left: 220px;
+}
+
+.special-2 {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.where-we-are {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form {
+    height: 923px;
+    width: 1920px;
+    background-color: #455757;
+}
+
+label {
+    display: block;
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 25px;
+    margin: 15px 0 0 25px;
+}
+
+input {
+    display: block;
+    border: 2px solid #455757;
+    border-radius: 50px;
+}
+
+.form-table {
+    height: 600px;
+    width: 600px;
+    border: 5px solid #f2f2f2;
+    border-radius: 20px;
+    background-color: #1a3435;
+}
+
+.form-headline {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+#fname {
+    margin-left: 15px;
+    height: 40px;
+    font-size: 26px;
+}
+
+#lname {
+    margin-left: 15px;
+    height: 40px;
+    font-size: 26px;
+}
+
+#email {
+    margin-left: 15px;
+    height: 40px;
+    font-size: 26px;
+}
+
+#phone {
+    margin-left: 15px;
+    height: 40px;
+    font-size: 26px;
+}
