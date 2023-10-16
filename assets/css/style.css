@@ -320,3 +320,45 @@ label {
     width: 300px;
     margin: 20px 0 0 140px;
 }
+
+.footer-section {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+}
+
+.brand-name {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+
+.brand-logo {
+    margin-left: 50px;
+}
+
+.copyright {
+    margin-top: 60px;
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+}
+
+.contact-slogan {
+    display: flex;
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 30px;
+    margin: 32px 0 0 60px;
+
+}
+
+.contact-details {
+    display: flex;
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 250px;
+}
