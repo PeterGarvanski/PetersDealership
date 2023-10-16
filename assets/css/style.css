@@ -105,7 +105,7 @@ li {
     float: center;
 }
 
-.porche {
+#porsche {
     float: right;
 }
 
@@ -116,11 +116,6 @@ li {
     text-align: center;
     margin-top: 10px;
 }
-
-/* #porche-image {
-    border-top: 5px solid #1c2f2f;
-    border-bottom: 5px solid #1c2f2f;
-} */
 
 .specs-title {
     color: #f2f2f2;
@@ -240,7 +235,7 @@ label {
     color: #f2f2f2;
     font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 25px;
-    margin: 15px 0 0 25px;
+    margin: 15px 0 0 0;
 }
 
 input {
@@ -265,25 +260,50 @@ input {
 }
 
 #fname {
-    margin-left: 15px;
     height: 40px;
     font-size: 26px;
+    margin-left: 80px;
 }
 
 #lname {
-    margin-left: 15px;
     height: 40px;
     font-size: 26px;
+    margin-left: 80px;
 }
 
 #email {
-    margin-left: 15px;
     height: 40px;
     font-size: 26px;
+    margin-left: 80px;
 }
 
 #phone {
+    height: 40px;
+    font-size: 26px;
+    margin-left: 80px;
+}
+
+.radio-label {
     margin-left: 15px;
     height: 40px;
     font-size: 26px;
+    display: inline;
+}
+
+.radio-button {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.central {
+    text-align: center;
+}
+
+.question {
+    display: block;
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 25px;
+    margin: 25px 0 0 0;
+    text-decoration: underline;
 }
