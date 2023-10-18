@@ -1,3 +1,5 @@
+/* Commonly used CSS */
+
 i {
     font-size: 50px;
 }
@@ -6,9 +8,22 @@ li {
     display: inline-block
 }
 
-.pushdown {
-    padding-top: 96px;
+.font-colour {
+    color: #f2f2f2;
+    font-family: 'Courgette', 'cursive', sans-serif;
 }
+
+.main-border{
+    border: 5px solid #1c2f2f;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* CSS For The Naigation Section */
 
 .nav {
     overflow: hidden;
@@ -32,18 +47,17 @@ li {
     font-size: 26px;
 }
 
+.pushdown {
+    padding-top: 96px;
+}
+
+/* CSS For The Home Section */
+
 .hero-image {
     height: 750px;
     background-image: url("/assets/images/Lmbo-Hero-Image\ .jpg");
     background-repeat: no-repeat;
     border-bottom: 5px solid #1c2f2f;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-    border: 5px solid #1c2f2f;
-    padding: 10px;
 }
 
 #jumbotron {
@@ -55,18 +69,14 @@ li {
 }
 
 #brand-name {
-    color: #f2f2f2;
     font-size: 56px;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
 }
 
 #slogan {
-    color: #f2f2f2;
     font-size: 28px;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     padding-top: 20px;
 }
@@ -76,8 +86,9 @@ li {
     font-family: 'Courgette', 'cursive', sans-serif;
     margin: 50px 0 0 175px;
     padding: 10px 0 10px 0;
-
 }
+
+/* CSS For The Shop Section */
 
 .shop-section {
     height: 820px;
@@ -87,9 +98,7 @@ li {
 }
 
 .shop {
-    color: #f2f2f2;
     font-size: 40px;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     margin-top: 30px;
     text-decoration: underline;
@@ -100,33 +109,22 @@ li {
     width: 400px;
     border-radius: 25px;
     background-color: rgba(47, 79, 79, 0.4);
-    border: 5px solid #1c2f2f;
     margin-top: 40px;
     float: center;
 }
 
-#porsche {
-    float: right;
-}
-
 .car-name {
-    color: #f2f2f2;
     font-size: 28px;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     margin-top: 10px;
 }
 
 .specs-title {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     font-size: 26px;
 }
 
 .specs {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 16px;
     margin: 20px 0 0 25px;
 }
@@ -140,20 +138,22 @@ li {
 }
 
 .specs-title-lambo {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     font-size: 26px;
     margin-top: 10px;
 }
 
 .specs-title-ferrari {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
 }
+
+#porsche {
+    float: right;
+}
+
+/* CSS For The Meetup Section */
 
 .meetup-section {
     height: 830px;
@@ -164,13 +164,19 @@ li {
     border-bottom: 5px solid #1c2f2f;
 }
 
-#meetup-title {
-    color: #f2f2f2;
+.meetup-style{
+    color: #2f4f4f;
+    font-family: 'Courgette', 'cursive', sans-serif;
 }
 
 .google-location {
     border: 5px solid #f2f2f2;
     border-radius: 20px;
+}
+
+.where-we-are {
+    font-size: 26px;
+    text-align: center;
 }
 
 .locations {
@@ -191,8 +197,6 @@ li {
 }
 
 .meetup-location {
-    color: #2f4f4f;
-    font-family: 'Courgette', 'cursive', sans-serif;
     text-align: left;
     font-size: 40px;
     margin: 10px 0 0 20px;
@@ -221,12 +225,7 @@ li {
     margin: 0 0 0 0;
 }
 
-.where-we-are {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
-    font-size: 26px;
-    text-align: center;
-}
+/* CSS For The Form Section */
 
 .form {
     height: 923px;
@@ -257,31 +256,11 @@ label {
 }
 
 .form-headline {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 40px;
     margin-top: 100px;
 }
 
-#fname {
-    height: 40px;
-    font-size: 26px;
-    margin-left: 80px;
-}
-
-#lname {
-    height: 40px;
-    font-size: 26px;
-    margin-left: 80px;
-}
-
-#email {
-    height: 40px;
-    font-size: 26px;
-    margin-left: 80px;
-}
-
-#phone {
+.input-position {
     height: 40px;
     font-size: 26px;
     margin-left: 80px;
@@ -305,8 +284,6 @@ label {
 
 .question {
     display: block;
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 25px;
     margin: 25px 0 0 0;
     text-decoration: underline;
@@ -315,15 +292,15 @@ label {
 .submit-button {
     display: block;
     background-color: green;
-    font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 30px;
-    color: #f2f2f2;
-    border: 4px solid #f2f2f2;
     border-radius: 25px;
+    border: 5px solid #f2f2f2;
     height: 60px;
     width: 300px;
     margin: 20px 0 0 140px;
 }
+
+/* CSS For The Footer Section */
 
 .footer-section {
     width: 100%;
@@ -332,8 +309,6 @@ label {
 }
 
 .brand-name {
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 30px;
     margin-left: 30px;
 
@@ -345,23 +320,10 @@ label {
 
 .copyright {
     margin-top: 60px;
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
-}
-
-.contact-slogan {
-    display: flex;
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
-    font-size: 30px;
-    margin: 32px 0 0 60px;
-
 }
 
 .contact-details {
     display: flex;
-    color: #f2f2f2;
-    font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 18px;
     margin-top: 25px;
     margin-left: 250px;
