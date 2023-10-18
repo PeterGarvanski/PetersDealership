@@ -28,9 +28,7 @@ li {
 .nav {
     overflow: hidden;
     background-color: darkslategray;
-    position: fixed;
     top: 0;
-    width: 100%;
     border-bottom: 5px solid #1c2f2f;
 }
 
