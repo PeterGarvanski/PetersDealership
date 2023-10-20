@@ -41,12 +41,24 @@ li {
     font-family: 'Courgette', 'cursive', sans-serif;
     text-align: center;
     padding: 15px 15px;
-    text-decoration: none;
     font-size: 26px;
+}
+
+.social-icons {
+    float: right;
 }
 
 .pushdown {
     padding-top: 96px;
+}
+
+#brand-img {
+    width: 320px;
+    height: 80px;
+    background-image: url("/assets/images/Logo-Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 320px 80px;
 }
 
 /* CSS For The Home Section */
@@ -349,3 +361,26 @@ label {
     font-size: 100px;
     text-decoration: underline;
 }
+
+/* CSS For Medium Screen Sizes */
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    
+    .nav {
+        height: 80px;
+    }
+
+    ul.nav-elements li a.nav-links {
+        font-size: 26px;
+    }
+
+    #brand-img {
+        display: none;
+    }
+
+    .nav-elements .social-icons {
+        display: none;
+    }
+    
+}
+
