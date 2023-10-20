@@ -381,11 +381,11 @@ label {
         font-size: 26px;
     }
 
-    #brand-img {
+    .nav-elements .social-icons {
         display: none;
     }
 
-    .nav-elements .social-icons {
+    #brand-img {
         display: none;
     }
 
@@ -414,14 +414,32 @@ label {
         height: 2020px;
     }
 
-    #porsche {
-        float: none;
-    } 
-
     .car-shop {
         display: block;
         margin: auto;
         margin-top: 30px;
+    }
+
+    #porsche {
+        float: none;
+    }
+
+    /* Meetup section */
+
+    .meetup-section{
+        height: 1140px;
+    }
+
+    .where-we-are {
+        margin-top: 20px;
+    }
+    
+    .location-1 {
+        margin-left: 0;
+    }
+    
+    .location-2 {
+        margin-right: 0;
     }
 }
 
