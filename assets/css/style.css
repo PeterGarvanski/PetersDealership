@@ -261,7 +261,13 @@ li {
 }
 
 .brand-logo {
+    height: 50px;
+    width: 200px;
     margin-left: 50px;
+    background-image: url("/assets/images/Logo-Image.png");
+    background-size: 200px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .copyright {
@@ -440,6 +446,26 @@ label {
     
     .location-2 {
         margin-right: 0;
+    }
+
+    /* footer section */
+
+    .brand-logo {
+        display: none;
+    }
+    
+    .brand-name {
+        margin-top: 40px;
+        font-size: 24px;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+
+    .contact-details {
+        font-size: 14px;
+        margin-left: 30px;
     }
 }
 
