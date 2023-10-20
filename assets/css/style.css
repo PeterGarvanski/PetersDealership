@@ -131,7 +131,6 @@ li {
     border-radius: 25px;
     background-color: rgba(47, 79, 79, 0.4);
     margin-top: 40px;
-    float: center;
 }
 
 .car-name {
@@ -407,6 +406,22 @@ label {
 
     #button-link {
         font-size: 22px;
+    }
+
+    /* Shop section */
+
+    .shop-section {
+        height: 2020px;
+    }
+
+    #porsche {
+        float: none;
+    } 
+
+    .car-shop {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
     }
 }
 
