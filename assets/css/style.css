@@ -65,14 +65,16 @@ li {
 
 .hero-image {
     height: 750px;
+    width: 100%;
     background-image: url("/assets/images/Lmbo-Hero-Image\ .jpg");
+    background-size: 100% 750px;
     background-repeat: no-repeat;
     border-bottom: 5px solid #1c2f2f;
 }
 
 #jumbotron {
-    width: 700px;
-    height: 400px;
+    height: 400px; 
+    width: 40%;
     background-color: rgba(47, 79, 79, 0.4);
     border-radius: 50px;
     margin-top: 100px;
@@ -94,7 +96,11 @@ li {
 #form-button {
     font-size: 30px;
     font-family: 'Courgette', 'cursive', sans-serif;
-    margin: 50px 0 0 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
     padding: 10px 0 10px 0;
 }
 
@@ -366,6 +372,8 @@ label {
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {
     
+    /* navigation section */
+    
     .nav {
         height: 80px;
     }
@@ -381,6 +389,24 @@ label {
     .nav-elements .social-icons {
         display: none;
     }
+
+    /* home section */
+
+    #form-button {
+        width: 65%;
+        height: 15%;
+    }
+
+    #brand-name {
+        font-size: 40px;
+    }
     
+    #slogan {
+        font-size: 18px;
+    }
+
+    #button-link {
+        font-size: 22px;
+    }
 }
 
