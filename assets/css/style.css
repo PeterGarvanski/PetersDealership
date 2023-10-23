@@ -373,9 +373,49 @@ label {
     text-decoration: underline;
 }
 
+/* CSS For small Screen Sizes */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    /* navigation section */
+
+    .socials {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-elements a {
+        font-size: 20px;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    #brand-img {
+        display: none;
+    }
+
+    #get-in-touch {
+        display: none;
+    }
+
+    /* home section */
+
+    .hero-image {
+        background-image: none;
+        background-color: red;
+    }
+}
+
+
 /* CSS For Medium Screen Sizes */
 
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) and (max-width: 1399px) {
     
     /* navigation section */
     
@@ -471,7 +511,7 @@ label {
 
 /* CSS For Large Screen Sizes */
 
-@media screen and (min-width: 1401px) and (max-width: 1645px) {
+@media screen and (min-width: 1400px) and (max-width: 1645px) {
     
     /* navigation section */
 
