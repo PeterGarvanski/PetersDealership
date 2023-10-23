@@ -469,3 +469,40 @@ label {
     }
 }
 
+/* CSS For Large Screen Sizes */
+
+@media screen and (min-width: 1401px) and (max-width: 1645px) {
+    
+    /* navigation section */
+
+    .nav-elements a {
+        font-size: 20px;
+    }
+
+    .nav-elements {
+        padding-top: 25px;
+    }
+
+    .socials {
+        padding-top: 18px;
+    }
+
+    /* Meetup section */
+
+    .meetup-description {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    /* footer section */
+
+    .contact-details {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        margin-top: 65px;
+    }
+}   
