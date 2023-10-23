@@ -151,7 +151,7 @@ li {
 }
 
 .buy-now {
-    margin: 40px 0 0 100px;
+    margin-top: 40px;
 }
 
 .car {
@@ -159,15 +159,17 @@ li {
 }
 
 .specs-title-lambo {
-    text-align: center;
-    font-size: 26px;
     margin-top: 10px;
 }
 
 .specs-title-ferrari {
-    text-align: center;
-    font-size: 26px;
     margin-top: 20px;
+}
+
+.button-centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #porsche {
@@ -435,6 +437,36 @@ label {
 
     #button-link {
         font-size: 20px;
+    }
+
+    /* Shop section */
+
+    .shop-section {
+        height: 2020px;
+    }
+
+    .car-shop {
+        width: 300px;
+        height: 600px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .buy-now {
+        margin-top: 30px;
+    }
+
+    .car-name {
+        font-size: 24px;
+    }
+
+    .specs-title {
+        font-size: 22px;
+    }
+
+    #porsche {
+        float: none;
     }
 }
 
