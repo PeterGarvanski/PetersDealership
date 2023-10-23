@@ -507,6 +507,36 @@ label {
         display: none;
     }
 
+    /* Footer section */
+
+    .footer-section{
+        height: 220px;
+    }
+
+    .brand-logo {
+        height: 50px;
+        width: 200px;
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .brand-name {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .copyright {
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    
+    .contact-details {
+        display: block;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
 }
 
 
@@ -585,7 +615,7 @@ label {
         margin-right: 0;
     }
 
-    /* footer section */
+    /* Footer section */
 
     .brand-logo {
         display: none;
