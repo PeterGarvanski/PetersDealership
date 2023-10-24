@@ -537,6 +537,65 @@ label {
         margin-left: 15px;
     }
 
+    /* Form Section */
+
+    .form {
+        height: 900px;
+        width: 1920px;
+    }
+    
+    label {
+        font-size: 22px;
+    }
+    
+    .input {
+        width: 90%;
+    }
+    
+    .form-table {
+        height: 650px;
+        width: 95%;
+    }
+    
+    .form-headline {
+        font-size: 30px;
+    }
+    
+    .input-position {
+        height: 35px;
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    .radio-label {
+        margin-left: 0;
+        margin-top: 50px;
+        font-size: 16px;
+        display: inline;
+    }
+    
+    .radio-button {
+        margin: 35px 0 0 0;
+        display: inline;
+    }
+    
+    .question {
+        font-size: 22px;
+    }
+    
+    .submit-button {
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .radio-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
 }
 
 
