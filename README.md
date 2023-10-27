@@ -1,39 +1,86 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Peter's Dealership
 
-Welcome,
+## Purpose of the Project
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Description:**
+The purpose of my website is to create a user-friendly and visually appealing static website for my car dealership. The website is designed in 3 primary sections. The home page, a shop section to showcase the inventory and outline the specification of our cars in stock, and a meet-up section that provides a oppurtunity for clients to soacalise and show off their new bought rides. Peter's Dealership is a website with an intuitive interface for users to get-to-know, browse and become members of our buisness. This README will guide you through the project's key aspects and its development process.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+**Why This Project:**
+My goal is to establish an online presence, attract potential customers, and facilitate the process of enlisitng new members and inorming them about the cars we have for sale.
 
-## Codeanywhere Reminders
+**Project Objectives:**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- Provide a user-friendly interface.
+- Showcase our cars in an appealing way.
+- Enable users to become members and make inquieries about the cars.
+- Make the website scalable and supported across multiple devices and screen widths.
+- Make the website interactive by displaying a google maps iframe.
+  
+## User Stories
 
-`python3 -m http.server`
+**Current User Stories:**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+1. As a prospective car buyer, I want to view detailed information and high-quality images of the available cars.
+2. As a visitor, I want to easily navigate the website and find relevant information.
+3. As a potential customer, I want to inquire about a specific car or schedule a meeting with the dealership.
+4. As a car enthusiast, I want to be able to soacalise and meet others like me to show off our hard earned cars.
+5. As a visitor, I want to easily find contact information, including the dealership's address, phone number, and email, so I can reach out for inquiries or assistance.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+**Future User Stories:**
 
-`http_server`
+1. As a car enthusiast, I want to receive notifications about new arrivals or special promotions, so I can stay updated on the latest offerings from the dealership.
+2. As a returning customer, I want the option to save favorite cars or my search preferences for a personalized and convenient experience.
+3. As a prospective buyer, I want to read customer reviews and testimonials to gain insights into the experiences of others who have purchased cars from the dealership.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## 3. Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**Key Features:**
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Navigation: Easy-to-use navigation for seamless user experience whilst orientating the website. This feature displays the navigation links, as well as the brand logo and social media links.
+![Navigation Screenshot]("assets/images/navigation.png")
 
-To log into the Heroku toolbelt CLI:
+- Home Section: An introduction to the dealership which includes a hero-image and a jumbotron prompting the user to become a member. If the user clicks the button they are redirected to our form page.
+![Home Screenshot]("assets/images/home.png")
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Shop Section: Showcase of the three available cars with images and specifation of the car model, make, engine size etc.There is also a buy now button which redirects users to the coming-soon page.
+![Shop Screenshot]("assets/images/shop.png")
+![Coming Soon Screenshot]("assets/images/coming-soon.png")
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Meet-Up Section: Information on where the dealership resides and where we host car-shows. Minimum requirements and event details are also displayed.
+![Meet Up Screenshot]("assets/images/meetups.png")
 
----
+- Form Page: Users can submit their details including First Name, Last Name, Email, Phone Number and brand of car they are interested in, to become a member and potential client. Once submited they will be redirected to the submission page.
+![Form Screenshot]("assets/images/form.png)
+![Submission Screenshot]("assets/images/submission.png)
 
-Happy coding!
+- Footer Section: In the footer users can find the brand name and logo, copyright information and contact details.
+![Footer Screenshot]("assets/images/footer.png)
+
+<!-- got up to here -->
+
+### 4. Future Features
+
+**Planned Future Features:**
+
+- Implement a user registration and login system.
+- Allow users to compare car features side by side.
+- Include a blog section with informative articles.
+- Integrate a live chat support feature for instant customer interaction.
+
+### 5. Typography and Color Scheme
+
+**Typography:**
+
+- Primary Font: [Your Primary Font]
+- Secondary Font: [Your Secondary Font]
+
+**Color Scheme:**
+
+- Primary Color: [Your Primary Color]
+- Secondary Color: [Your Secondary Color]
+
+### 6. Wireframes
+
+**Wireframes:**
+You can find the wireframes for different sections of the website in the `/wireframes` directory. These visual representations will help you understand the layout and design of the website.
+
