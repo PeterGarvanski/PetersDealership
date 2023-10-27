@@ -27,7 +27,7 @@ li {
 
 .nav {
     overflow: hidden;
-    background-color: darkslategray;
+    background-color: #2f4f4f;
     top: 0;
     border-bottom: 5px solid #1c2f2f;
 }
@@ -66,7 +66,7 @@ li {
 .hero-image {
     height: 750px;
     width: 100%;
-    background-image: url("/assets/images/lmbo-hero-image\ .jpg");
+    background-image: url("/assets/images/lmbo-hero-image.jpg");
     background-size: 100% 750px;
     background-repeat: no-repeat;
     border-bottom: 5px solid #1c2f2f;
@@ -75,7 +75,7 @@ li {
 #jumbotron {
     height: 400px; 
     width: 40%;
-    background-color: rgba(47, 79, 79, 0.4);
+    background-color: #2f4f4f66;
     border-radius: 50px;
     margin-top: 100px;
 }
@@ -130,7 +130,7 @@ li {
     height: 600px;
     width: 400px;
     border-radius: 25px;
-    background-color: rgba(47, 79, 79, 0.4);
+    background-color: #2f4f4f66;
     margin-top: 40px;
 }
 
@@ -206,7 +206,7 @@ li {
 .locations {
     width: 700px;
     height: 300px;
-    background-color: rgb(255 255 255 / 65%);
+    background-color: #ffffffa6;
     margin-top: 30px;
     border: 5px solid #f2f2f2;
     border-radius: 20px;
@@ -350,7 +350,7 @@ label {
 
 .submit-button {
     display: block;
-    background-color: green;
+    background-color: #008000;
     font-size: 30px;
     border-radius: 25px;
     border: 5px solid #f2f2f2;
@@ -374,9 +374,10 @@ label {
 .soon-come{
     font-size: 100px;
     text-decoration: underline;
+    flex-shrink: 1;
 }
 
-/* CSS For small Screen Sizes */
+/* CSS For Small, Medium and Large Phone Screen Sizes */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     
@@ -599,7 +600,7 @@ label {
 }
 
 
-/* CSS For Medium Screen Sizes */
+/* CSS For Large Tablets and Laptop Screen Sizes */
 
 @media screen and (min-width: 768px) and (max-width: 1399px) {
     
@@ -695,7 +696,7 @@ label {
     }
 }
 
-/* CSS For Large Screen Sizes */
+/* CSS For Small Monitor and Tv Screen Sizes */
 
 @media screen and (min-width: 1400px) and (max-width: 1645px) {
     
