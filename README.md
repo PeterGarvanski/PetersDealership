@@ -37,50 +37,60 @@ My goal is to establish an online presence, attract potential customers, and fac
 **Key Features:**
 
 - Navigation: Easy-to-use navigation for seamless user experience whilst orientating the website. This feature displays the navigation links, as well as the brand logo and social media links.
-![Navigation Screenshot]("assets/images/navigation.png")
+![Navigation Screenshot](assets/images/navigation.png)
 
 - Home Section: An introduction to the dealership which includes a hero-image and a jumbotron prompting the user to become a member. If the user clicks the button they are redirected to our form page.
-![Home Screenshot]("assets/images/home.png")
+![Home Screenshot](assets/images/home.png)
 
 - Shop Section: Showcase of the three available cars with images and specifation of the car model, make, engine size etc.There is also a buy now button which redirects users to the coming-soon page.
-![Shop Screenshot]("assets/images/shop.png")
-![Coming Soon Screenshot]("assets/images/coming-soon.png")
+![Shop Screenshot](assets/images/shop.png)
+![Coming Soon Screenshot](assets/images/coming-soon.png)
 
 - Meet-Up Section: Information on where the dealership resides and where we host car-shows. Minimum requirements and event details are also displayed.
-![Meet Up Screenshot]("assets/images/meetups.png")
+![Meet Up Screenshot](assets/images/meetups.png)
 
 - Form Page: Users can submit their details including First Name, Last Name, Email, Phone Number and brand of car they are interested in, to become a member and potential client. Once submited they will be redirected to the submission page.
-![Form Screenshot]("assets/images/form.png)
-![Submission Screenshot]("assets/images/submission.png)
+![Form Screenshot](assets/images/form.png)
+![Submission Screenshot](assets/images/submission.png)
 
 - Footer Section: In the footer users can find the brand name and logo, copyright information and contact details.
-![Footer Screenshot]("assets/images/footer.png)
+![Footer Screenshot](assets/images/footer.png)
 
-<!-- got up to here -->
-
-### 4. Future Features
+## Future Features
 
 **Planned Future Features:**
 
 - Implement a user registration and login system.
-- Allow users to compare car features side by side.
-- Include a blog section with informative articles.
-- Integrate a live chat support feature for instant customer interaction.
+- Develop a check out page so users can purchase vehicles.
+- Include a stock counter that displays thhe amount of vehicles we have of that model in stock.
+- Construct a gallery page so we become more trustworthy with new customers.
 
-### 5. Typography and Color Scheme
+## User Experience Design Features
+
+**Intuitive Scroll:**
+
+- Each page is designed to end slightly before the end of the browsers viewing height. This is done so that the following page's heading is visible from the previous page. This entices users to keep scrolling down and view the following pages. It also disproves the misconception that the website finishes there. I have implemented this for all my supported devices.
 
 **Typography:**
 
-- Primary Font: [Your Primary Font]
-- Secondary Font: [Your Secondary Font]
+- Primary Font: [courgette] I chose courgette because of it's simplistic yet stylish looks, its easy to read and draws attention. "Courgette communicates warmth, artfulness, and creativity. It is comforting yet expressive. Courgette is perfect for brands looking to add a creative, comforting, DIY voice." - Typogram
+
+- Secondary Font: [sans-serif] I chose my secondary font as sans-serif as its the basic font built across all browsers and supported everywhere. If by some reason my main font doesn't load I can always rely and depend on sans-serif.
 
 **Color Scheme:**
 
-- Primary Color: [Your Primary Color]
-- Secondary Color: [Your Secondary Color]
+- Primary Color: [#2f4f4f] I Chose DarkSlateGray because it holds significant importance in graphic design as it enhances visual impact. Its depth creates contrast, making other elements stand out and catch the viewer's attention.
+  
+- Secondary Color: [#f2f2f2] I chose my secondary colour for it's neutrality and simplicity. Light gray is a neutral colour that can create a clean and simple aesthetic. It doesn't distract from the content and is often used as a background colour to make other elements stand out. this is why it can be paired perfectly with the DarkSlateGray to emphasise content.
 
-### 6. Wireframes
+## Wireframes
 
 **Wireframes:**
-You can find the wireframes for different sections of the website in the `/wireframes` directory. These visual representations will help you understand the layout and design of the website.
 
+- Home Section Wireframe: ![Home Wirerame Screenshot](assets/images/home-wireframe.png)
+
+- Shop Section Wireframe: ![Shop Wirerame Screenshot](assets/images/shop-wireframe.png)
+
+- Meetup Section Wireframe: ![Meet Up Wirerame Screenshot](assets/images/meetup-wireframe.png)
+
+- Form Section Wireframe: ![Form Wirerame Screenshot](assets/images/form-wireframe.png)
