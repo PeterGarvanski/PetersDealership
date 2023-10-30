@@ -23,6 +23,10 @@ li {
     padding: 10px;
 }
 
+.not-visible {
+    display: none;
+}
+
 /* CSS For The Naigation Section */
 
 .nav {
@@ -434,6 +438,7 @@ label {
         width: 85%;
         height: 15%;
         border-radius: 15px;
+        font-size: 20px;
     }
 
     #button-link {
@@ -627,6 +632,7 @@ label {
     #form-button {
         width: 65%;
         height: 15%;
+        font-size: 22px;
     }
 
     #brand-name {

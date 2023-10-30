@@ -94,3 +94,49 @@ My goal is to establish an online presence, attract potential customers, and fac
 - Meetup Section Wireframe: ![Meet Up Wirerame Screenshot](assets/images/meetup-wireframe.png)
 
 - Form Section Wireframe: ![Form Wirerame Screenshot](assets/images/form-wireframe.png)
+
+## Technology
+
+**Languages:**
+
+- **HTML:** Used to structure the contents fo my website.
+- **CSS:** Used to style the content of my website.
+
+**Frameworks and Add-Ons:**
+
+- **Bootstrap:** Used to make the website scalable across multiple screen sizes.
+- **Fontawsome:** Used to integrate icons into my website.
+- **Google Fonts:** Used to apply non-included fonts onto my text.
+
+**Additional:**
+
+- **Codeanywhere:** My Integrated Development Environment.
+- **Git and Github:** Used Git for source code managment and github for version control.
+- **GitPages:** For deployment of my website.
+
+## Testing
+
+**W3C Validator:**
+
+- HTML ![HTML Passing Validator Screenshot](assets/images/html-validator.png)
+- CSS ![CSS Passing Validator Screenshot](assets/images/css-validator.png)
+
+**User Stories:**
+
+- A User wants to sign up to become a member, when on the website they scroll down to the home page, navigate themselves onto the jumbotron and click the "Become A Member!" button. ![Home Screenshot](assets/images/home.png) Once Clicked they will be redirected to the form Page. In order for a user to become a member they need to fill in the required fields: First Name, Last Name, Email and Phone Number. ![The Form Page requesting fields to be filled out Screenshot](assets/images/form-required.png) Once that is complete they can finish the form by picking which car they are most interested by and submit the form using the "Submit!" button. Finaly, they will be redirected to a thank you page. ![Submission Screenshot](assets/images/submission.png)
+
+**Fixed Bugs:**
+
+1. My CSS nor any of my images wouldn't load because my source paths included a "/" before the path e.g. href="/assets/css/style.css">. I fixed this by trying diffrent file paths and stumbled accross the problem, i then removed all the prefixed "/" and my site finally rendered the CSS and images.
+2. I couldn't figure out why my porsche jumbotron was floating to the left. ![Screenshot of the Bug](assets/images/bug-1.png) I then realized that in a CSS file there is specificity and that my porsche jumbotron wasnt getting the float:right; property because it had a lower specificity. I fixed this by targetting the element with a higher order of specificty such as a ID. ![Solution Screenshot](assets/images/fix-1.png)
+
+**Supported Screen Sizes:**
+
+- Mobile Phones and Small Tablets (Breakpoint: 320px to 768px).
+- Large Tablets and Small Laptops (Breakpoint: 768px to 1400px).
+- Large Laptops and Small Monitors (Breakpoint: 1400px to 1645px).
+- Large Monitors and Tv's (Breakpoint: 1645px +).
+
+## Deployment
+
+The Site was Deployed on GitHub Pages. This is the link <https://github.com/PeterGarvanski/PetersDealership.git>
