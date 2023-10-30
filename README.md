@@ -3,16 +3,18 @@
 ## Purpose of the Project
 
 **Description:**
-The purpose of my website is to create a user-friendly and visually appealing static website for my car dealership. The website is designed in 3 primary sections. The home page, a shop section to showcase the inventory and outline the specification of our cars in stock, and a meet-up section that provides a oppurtunity for clients to soacalise and show off their new bought rides. Peter's Dealership is a website with an intuitive interface for users to get-to-know, browse and become members of our buisness. This README will guide you through the project's key aspects and its development process.
+
+Description: The purpose of my website is to create a user-friendly and visually appealing static website for my car dealership. The website is designed in 3 primary sections. The home page, a shop section to showcase the inventory and outline the specification of our cars in stock, and a meet-up section that provides an opportunity for clients to socialise and show off their new bought rides. Peter's Dealership is a website with an intuitive interface for users to get-to-know, browse and become members of our business. This README will guide you through the project's key aspects and its development process.
 
 **Why This Project:**
-My goal is to establish an online presence, attract potential customers, and facilitate the process of enlisitng new members and inorming them about the cars we have for sale.
+
+My goal is to establish an online presence, attract potential customers, and facilitate the process of enlisting new members and informing them about the cars we have for sale.
 
 **Project Objectives:**
 
 - Provide a user-friendly interface.
 - Showcase our cars in an appealing way.
-- Enable users to become members and make inquieries about the cars.
+- Enable users to become members and make inquiries about the cars.
 - Make the website scalable and supported across multiple devices and screen widths.
 - Make the website interactive by displaying a google maps iframe.
   
@@ -23,7 +25,7 @@ My goal is to establish an online presence, attract potential customers, and fac
 1. As a prospective car buyer, I want to view detailed information and high-quality images of the available cars.
 2. As a visitor, I want to easily navigate the website and find relevant information.
 3. As a potential customer, I want to inquire about a specific car or schedule a meeting with the dealership.
-4. As a car enthusiast, I want to be able to soacalise and meet others like me to show off our hard earned cars.
+4. As a car enthusiast, I want to be able to socialise and meet others like me to show off our hard earned cars.
 5. As a visitor, I want to easily find contact information, including the dealership's address, phone number, and email, so I can reach out for inquiries or assistance.
 
 **Future User Stories:**
@@ -42,14 +44,14 @@ My goal is to establish an online presence, attract potential customers, and fac
 - Home Section: An introduction to the dealership which includes a hero-image and a jumbotron prompting the user to become a member. If the user clicks the button they are redirected to our form page.
 ![Home Screenshot](assets/images/home.png)
 
-- Shop Section: Showcase of the three available cars with images and specifation of the car model, make, engine size etc.There is also a buy now button which redirects users to the coming-soon page.
+- Shop Section: Showcase of the three available cars with images and specification of the car model, make, engine size etc.There is also a buy now button which redirects users to the coming-soon page.
 ![Shop Screenshot](assets/images/shop.png)
 ![Coming Soon Screenshot](assets/images/coming-soon.png)
 
 - Meet-Up Section: Information on where the dealership resides and where we host car-shows. Minimum requirements and event details are also displayed.
 ![Meet Up Screenshot](assets/images/meetups.png)
 
-- Form Page: Users can submit their details including First Name, Last Name, Email, Phone Number and brand of car they are interested in, to become a member and potential client. Once submited they will be redirected to the submission page.
+- Form Page: Users can submit their details including First Name, Last Name, Email, Phone Number and brand of car they are interested in, to become a member and potential client. Once  submitted they will be redirected to the submission page.
 ![Form Screenshot](assets/images/form.png)
 ![Submission Screenshot](assets/images/submission.png)
 
@@ -62,7 +64,7 @@ My goal is to establish an online presence, attract potential customers, and fac
 
 - Implement a user registration and login system.
 - Develop a check out page so users can purchase vehicles.
-- Include a stock counter that displays thhe amount of vehicles we have of that model in stock.
+- Include a stock counter that displays the amount of vehicles we have of that model in stock.
 - Construct a gallery page so we become more trustworthy with new customers.
 
 ## User Experience Design Features
@@ -111,7 +113,7 @@ My goal is to establish an online presence, attract potential customers, and fac
 **Additional:**
 
 - **Codeanywhere:** My Integrated Development Environment.
-- **Git and Github:** Used Git for source code managment and github for version control.
+- **Git and Github:** Used Git for source code management and github for version control.
 - **GitPages:** For deployment of my website.
 
 ## Testing
@@ -123,12 +125,12 @@ My goal is to establish an online presence, attract potential customers, and fac
 
 **User Stories:**
 
-- A User wants to sign up to become a member, when on the website they scroll down to the home page, navigate themselves onto the jumbotron and click the "Become A Member!" button. ![Home Screenshot](assets/images/home.png) Once Clicked they will be redirected to the form Page. In order for a user to become a member they need to fill in the required fields: First Name, Last Name, Email and Phone Number. ![The Form Page requesting fields to be filled out Screenshot](assets/images/form-required.png) Once that is complete they can finish the form by picking which car they are most interested by and submit the form using the "Submit!" button. Finaly, they will be redirected to a thank you page. ![Submission Screenshot](assets/images/submission.png)
+- A User wants to sign up to become a member, when on the website they scroll down to the home page, navigate themselves onto the jumbotron and click the "Become A Member!" button. ![Home Screenshot](assets/images/home.png) Once Clicked they will be redirected to the form Page. In order for a user to become a member they need to fill in the required fields: First Name, Last Name, Email and Phone Number. ![The Form Page requesting fields to be filled out Screenshot](assets/images/form-required.png) Once that is complete they can finish the form by picking which car they are most interested by and submit the form using the "Submit!" button. Finally, they will be redirected to a thank you page. ![Submission Screenshot](assets/images/submission.png)
 
 **Fixed Bugs:**
 
-1. My CSS nor any of my images wouldn't load because my source paths included a "/" before the path e.g. href="/assets/css/style.css">. I fixed this by trying diffrent file paths and stumbled accross the problem, i then removed all the prefixed "/" and my site finally rendered the CSS and images.
-2. I couldn't figure out why my porsche jumbotron was floating to the left. ![Screenshot of the Bug](assets/images/bug-1.png) I then realized that in a CSS file there is specificity and that my porsche jumbotron wasnt getting the float:right; property because it had a lower specificity. I fixed this by targetting the element with a higher order of specificty such as a ID. ![Solution Screenshot](assets/images/fix-1.png)
+1. My CSS nor any of my images wouldn't load because my source paths included a "/" before the path e.g. href="/assets/css/style.css">. I fixed this by trying different file paths and stumbled across the problem, i then removed all the prefixed "/" and my site finally rendered the CSS and images.
+2. I couldn't figure out why my porsche jumbotron was floating to the left. ![Screenshot of the Bug](assets/images/bug-1.png) I then realized that in a CSS file there is specificity and that my porsche jumbotron wasn't getting the float:right; property because it had a lower specificity. I fixed this by targeting the element with a higher order of specificty such as a ID. ![Solution Screenshot](assets/images/fix-1.png)
 
 **Supported Screen Sizes:**
 
@@ -139,4 +141,4 @@ My goal is to establish an online presence, attract potential customers, and fac
 
 ## Deployment
 
-The Site was Deployed on GitHub Pages. This is the link <https://github.com/PeterGarvanski/PetersDealership.git>
+The Site was Deployed on GitHub Pages. This is the link <https://petergarvanski.github.io/PetersDealership/>
