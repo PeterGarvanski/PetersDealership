@@ -59,7 +59,7 @@ li {
 #brand-img {
     width: 320px;
     height: 80px;
-    background-image: url("/assets/images/logo-image.png");
+    background-image: url("../images/logo-image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 320px 80px;
@@ -70,7 +70,7 @@ li {
 .hero-image {
     height: 750px;
     width: 100%;
-    background-image: url("/assets/images/lmbo-hero-image.jpg");
+    background-image: url("../images/lmbo-hero-image.jpg");
     background-size: 100% 750px;
     background-repeat: no-repeat;
     border-bottom: 5px solid #1c2f2f;
@@ -271,7 +271,7 @@ li {
     height: 50px;
     width: 200px;
     margin-left: 50px;
-    background-image: url("/assets/images/logo-image.png");
+    background-image: url("../images/logo-image.png");
     background-size: 200px 50px;
     background-repeat: no-repeat;
     background-position: center;
